@@ -4,7 +4,7 @@ const Page = () => {
   return (
     <div className="flex flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <div className="max-w-2xl px-6 py-12">
-        <h1 className="text-4xl font-bold mb-6">About BookFlix</h1>
+        <h1 className="text-4xl font-bold mb-6 bg text-yellow-300">About BookFlix</h1>
         <p className="text-lg text-gray-700 dark:text-gray-300 mb-4">
           BookFlix is your personal book discovery platform. We help readers
           find their next favorite read by curating a diverse collection of
