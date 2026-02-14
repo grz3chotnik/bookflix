@@ -20,7 +20,7 @@ const Page = async () => {
     }));
 
   return (
-    <div className="flex flex-1 h-full items-center justify-center bg-zinc-50 font-sans dark:bg-black gap-5 flex-wrap p-5">
+    <div className="flex flex-1 h-full items-center justify-center bg-zinc-50 font-sans dark:bg-black gap-5 flex-wrap px-5 py-10">
       {books.map((book, i) => (
         <Card key={i} data={book} />
       ))}

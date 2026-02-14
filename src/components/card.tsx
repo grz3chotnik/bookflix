@@ -13,7 +13,7 @@ const PRICE = 15;
 
 const Card = ({ data }: CardProps) => {
   return (
-    <div className="flex flex-col border-black border-2 bg-black rounded-md dark:bg-white dark:border-white w-[200px]  h-[380px] hover:scale-105 duration-150">
+    <div className="flex flex-col border-black border-0 bg-black rounded-md dark:bg-white dark:border-white w-[200px]  h-[380px] hover:scale-105 duration-150">
       <div className="relative w-full h-[250px]">
         <Image
           className="rounded-t-md object-cover"
@@ -33,6 +33,7 @@ const Card = ({ data }: CardProps) => {
           Buy now - ${PRICE}
         </Button>
       </div>
+
     </div>
   );
 };
